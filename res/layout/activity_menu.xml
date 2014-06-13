@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:contentDescription="@string/hello_world"
+        android:scaleType="fitXY"
+        android:src="@drawable/bg_img" />
+
+    <ImageButton
+        android:id="@+id/imageView2"
+        style="?android:attr/borderlessButtonStyle"
+         android:contentDescription="@string/empty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+       
+        android:src="@drawable/exit_button" />
+
+    <ImageButton
+        android:id="@+id/textView1"
+         style="?android:attr/borderlessButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="34dp"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/but1"
+        android:contentDescription="@string/empty"/>
+
+    <ImageButton
+        android:id="@+id/textView5"
+         style="?android:attr/borderlessButtonStyle"
+          android:contentDescription="@string/empty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="34dp"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/gg4" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="27dp"
+        android:contentDescription="@string/empty" />
+
+    <ImageButton
+        android:id="@+id/TextView01"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView4"
+        android:layout_toRightOf="@+id/imageView3"
+        android:contentDescription="@string/empty"
+        android:src="@drawable/menu_btn_1" />
+
+    <ImageButton
+        android:id="@+id/menu_btn_3"
+        style="?android:attr/borderlessButtonStyle"
+          android:contentDescription="@string/empty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/TextView01"
+        android:layout_alignBottom="@+id/TextView01"
+        android:layout_marginRight="52dp"
+        android:layout_toLeftOf="@+id/imageView2"
+        android:src="@drawable/gg1" />
+
+    <ImageButton
+        android:id="@+id/textView4"
+        style="?android:attr/borderlessButtonStyle"
+          android:contentDescription="@string/empty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/gg2" />
+
+</RelativeLayout>

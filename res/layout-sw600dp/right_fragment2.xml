@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:layout_gravity="left"
+    android:padding="10sp" >
+
+<TextView
+     android:textSize="20dp"
+    android:id="@+id/bytitle"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignBaseline="@+id/textView1"
+    android:layout_alignBottom="@+id/textView1"
+    android:layout_toRightOf="@+id/textView1"
+    android:text="    " />
+
+<TextView
+    android:visibility="invisible"
+    android:id="@+id/textView1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignLeft="@+id/textView2"
+    android:layout_alignParentTop="true"
+     android:textSize="20dp"
+    android:text="Title: " />
+
+<TextView
+    android:id="@+id/byauthor"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignBaseline="@+id/textView2"
+    android:layout_alignBottom="@+id/textView2"
+    android:layout_toRightOf="@+id/textView2"
+     android:textSize="20dp"
+    android:text="    " />
+
+<TextView
+     android:textSize="20dp"
+    android:id="@+id/textView2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/bytitle"
+    android:visibility="invisible"
+    android:text="by Author: " />
+
+<Button
+    android:id="@+id/share_btn1"
+    android:layout_width="150dp"
+    android:layout_height="60dp"
+    android:layout_alignBaseline="@+id/edit"
+    android:layout_alignBottom="@+id/edit"
+    android:layout_marginLeft="240dp"
+    android:background="@drawable/hi3"
+    android:text="Share"
+    android:visibility="invisible"
+    android:textColor="#080808"
+    android:textStyle="bold" />
+
+<Button
+    android:id="@+id/del"
+    android:layout_width="150dp"
+    android:layout_height="60dp"
+    android:layout_alignBaseline="@+id/view_btn"
+    android:layout_alignBottom="@+id/view_btn"
+    android:layout_alignRight="@+id/share_btn1"
+    android:layout_marginLeft="240dp"
+    android:background="@drawable/hi3"
+    android:text="@string/delete"
+    android:visibility="invisible"
+    android:textColor="#080808"
+    android:textStyle="bold" />
+
+<Button
+    android:id="@+id/edit"
+    android:layout_width="150dp"
+    android:layout_height="60dp"
+    android:layout_alignParentBottom="true"
+    android:layout_alignRight="@+id/view_btn"
+    android:layout_marginLeft="0dp"
+    android:background="@drawable/bye3"
+    android:text="@string/edit"
+    android:visibility="invisible"
+    android:textColor="#080808"
+    android:textStyle="bold" />
+
+<Button
+    android:id="@+id/view_btn"
+    android:layout_width="150dp"
+    android:layout_height="60dp"
+    android:layout_above="@+id/edit"
+    android:layout_marginLeft="50dp"
+    android:layout_marginBottom="60dp"
+    android:background="@drawable/bye3"
+    android:text="View Story"
+    android:visibility="invisible"
+    android:textColor="#080808"
+    android:textStyle="bold" />
+
+<ImageView
+    android:id="@+id/imageView1"
+    android:layout_width="200dp"
+    android:layout_height="140dp"
+    android:layout_above="@+id/del"
+    android:layout_marginBottom="42dp"
+     android:layout_marginLeft="110dp"
+    android:src="@drawable/bb26" />
+
+<TextView
+    android:id="@+id/textView3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignLeft="@+id/byauthor"
+    android:layout_below="@+id/bytitle"
+    android:text="@string/clickstory"
+    android:textSize="35sp" />
+
+    </RelativeLayout>

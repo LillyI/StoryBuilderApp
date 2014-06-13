@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/help_page_intro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:padding="10dip"
+            android:text="@string/help_page_intro"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/help_button1"
+            android:layout_width="400dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="@drawable/bye3"
+            android:onClick="onClickHelp"
+            android:padding="8dip"
+            android:text="@string/help_title_section1"
+            android:textColor="#080808"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/help_input1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="15dip"
+            android:textSize="15sp" />
+        <!--
+ android:text="@string/help_text_section1"
+ android:text="@string/help_text_section2"
+        -->
+
+        <Button
+            android:id="@+id/help_button2"
+            android:layout_width="400dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="@drawable/bye3"
+            android:onClick="onClickHelp"
+            android:padding="8dip"
+            android:text="@string/help_title_section2"
+            android:textColor="#080808"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/help_input2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="15dip"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/help_button3"
+            android:layout_width="400dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="@drawable/bye3"
+            android:onClick="onClickHelp"
+            android:text="@string/help_title_section3"
+            android:textColor="#080808"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/help_input3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="15dip"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/help_button4"
+            android:layout_width="400dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="@drawable/bye3"
+            android:onClick="onClickHelp"
+            android:text="@string/help_title_section4"
+            android:textColor="#080808"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/help_input4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="15dip"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+</ScrollView>

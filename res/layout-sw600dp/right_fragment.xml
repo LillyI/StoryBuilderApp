@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+   <EditText
+        android:id="@+id/et1"
+        android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="top"
+    android:imeOptions="actionDone"
+    android:padding="10dp"
+    android:inputType="textMultiLine"
+    android:textIsSelectable="true"
+    android:text="Once upon a time there was a monkey called Mike..." >
+        <requestFocus />
+    </EditText>
+
+</RelativeLayout>

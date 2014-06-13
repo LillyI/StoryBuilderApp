@@ -1,0 +1,21 @@
+<resources>
+    
+    <dimen name="small_brush">10dp</dimen>
+
+	<integer name="small_size">10</integer>
+
+	<dimen name="medium_brush">20dp</dimen>
+
+	<integer name="medium_size">20</integer>
+
+	<dimen name="large_brush">30dp</dimen>
+
+	<integer name="large_size">30</integer>
+
+    <!--
+         Customize dimensions originally defined in res/values/dimens.xml (such as
+         screen margins) for sw720dp devices (e.g. 10" tablets) in landscape here.
+    -->
+    <dimen name="activity_horizontal_margin">128dp</dimen>
+
+</resources>

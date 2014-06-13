@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="no_help_available">
+    </string>
+    <string name="about_help_topics">
+    </string>
+    <string name="help_page_intro">   
+    </string>
+    <string name="help_page_intro_html">
+    <![CDATA[
+       ]]>
+    </string>
+    <string name="help_title_section1">Create a Story</string>
+    <string name="help_text_section1">coming soon..
+    </string>
+    <string name="nice_html">
+<![CDATA[ coming soon.......
+]]>
+</string>
+    <string name="topic_section1">
+    <![CDATA[
+      ]]>
+    </string>
+    <string name="help_title_section2">Create a Random Story</string>
+    <string name="help_text_section2">
+    </string>
+    <string name="topic_section2">
+    <![CDATA[
+       ]]>
+    </string>
+    <string name="help_title_section3">Browse Stories</string>
+    <string name="help_text_section3">
+    </string>
+    <string name="topic_section3">
+    <![CDATA[
+       ]]>
+    </string>
+
+    <string name="help_title_section4">My Stories</string>
+    <string name="help_text_section4">
+     
+    </string>
+    <string name="topic_section4">
+    <![CDATA[
+     
+       ]]>
+    </string>
+
+</resources>

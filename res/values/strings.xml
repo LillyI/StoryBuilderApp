@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Story Builder</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="empty"></string>
+    <string name="title_activity_title_author"></string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_random_story">Random Story Maker</string>
+    <string name="title_activity_browse_stories">Browse Stories</string>
+    <string name="title_activity_my_stories">My Stories</string>
+    <string name="title_activity_help">HelpActivity</string>
+    <string name="Title">Title:</string>
+    <string name="EnterTitle">Give your story a name</string>
+    <string name="Author">Author: </string>
+    <string name="EnterAuthor">Who is writing this story?</string>
+    <string name="Text1">Enter your name and the title of your story?</string>
+    <string name="Text2">Click to start</string>
+    <string name="Text3">Who is writing this story?</string>
+    <string name="Text4"> >>Click here to change image&lt;&lt;</string>
+    <string name="Text5">Once upon a time there was a monkey called Mike&#8230;</string>
+    <string name="Text6">Select Image</string>
+    <string name="Text7">Hold down a page below to delete it.</string>
+    <string name="Text8">Add Page</string>
+    <string name="Text9">Hold down the audio button to delete audio that you recorded.</string>
+     <string name="Text10">Hold down the audio button to stop the audio.</string>
+    <string name="title_activity_story_maker">Story Maker</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="title_activity_audio">Audio Tool</string>
+    <string name="title_activity_draw_tool">Draw Tool</string>
+    <string name="a_an">Click to start</string>
+    <string name="b_an">Enter your name and the title of your story?</string>
+    <string name="c_stories">\u0020</string>
+    <string name="d_stories">Change title or author</string>
+    <string name="e_stories">Share</string>
+    <string name="a_stories">Title: \u0020 </string>
+    <string name="b_stories">by: \u0020 </string>
+    <string name="f_stories">View Story</string>
+
+    <integer name="colorGridColumnWidth">65</integer>
+
+    <string name="start_new">New</string>
+    <string name="brush">Brush</string>
+    <string name="erase">Erase</string>
+    <string name="save">Save</string>
+    <string name="paint">Paint</string>
+    <string name="sml">Small</string>
+    <string name="med">Medium</string>
+    <string name="lrg">Large</string>
+    <string name="c_bt">Image</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit Story</string>
+    <string name="clickstory">Click on a Story!</string>
+    <string name="title_activity_edit_story_maker">EditStoryMakerActivity</string>
+    <string name="title_activity_view_story">ViewStory Activity</string>
+    <string name="title_activity_title_author2"></string>
+    <string name="title_activity_key">KeyActivity</string>
+
+</resources>

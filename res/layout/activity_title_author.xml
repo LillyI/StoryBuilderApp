@@ -1,0 +1,85 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageButton
+        android:id="@+id/imageView1"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="60dp"
+        android:layout_marginLeft="38dp"
+        android:layout_toRightOf="@+id/AuthorEdit"
+        android:contentDescription="@string/empty"
+        android:src="@android:drawable/ic_menu_edit" />
+
+    <EditText
+        android:id="@+id/TitleEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/AuthorText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="146dp"
+        android:ems="10"
+        android:imeOptions="actionSearch|flagNoExtractUi|flagNoFullscreen"
+        android:inputType="textCapSentences"
+        
+android:focusableInTouchMode="true"
+        android:maxLines="1" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/AuthorEdit"
+        android:layout_width="226dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageView1"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+android:focusableInTouchMode="true"
+        android:hint="@string/EnterAuthor"
+        android:imeOptions="actionSearch|flagNoExtractUi|flagNoFullscreen"
+        android:inputType="textCapSentences"
+        android:maxLines="1" />
+
+    <TextView
+        android:id="@+id/TitleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/TitleEdit"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="81dp"
+        android:text="@string/Title"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/AuthorText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/AuthorEdit"
+        android:layout_centerHorizontal="true"
+        android:text="@string/Author"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:text="@string/Text1" />
+
+    <TextView
+        android:id="@+id/TextView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="34dp"
+        android:layout_toRightOf="@+id/textView1"
+        android:text="@string/Text2" />
+
+</RelativeLayout>

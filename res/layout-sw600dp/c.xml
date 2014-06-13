@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="0dp"
+    android:gravity="right"
+    android:orientation="horizontal" >
+
+    <Button
+        android:id="@+id/exitbtn"
+        android:layout_width="65dp"
+        android:layout_height="70dp"
+        android:text="Exit"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_alignParentRight="true"
+        android:contentDescription="@string/empty"/>
+
+    <TextView
+    android:id="@+id/tvagain"
+    android:layout_width="wrap_content"
+    android:layout_height="70dp"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:paddingTop="15dp"
+    android:text=" &lt;-- story pages"
+    android:textColor="#80cfe2"
+    android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="25dp"
+        android:layout_toLeftOf="@+id/button2"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_height="70dp"
+        android:text="Prev" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="25dp"
+        android:layout_toLeftOf="@+id/audiobtn"
+        style="?android:attr/borderlessButtonStyle"
+        android:text="Next" />
+
+    <Button
+        android:id="@+id/audiobtn"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="25dp"
+        android:layout_toLeftOf="@+id/exitbtn"
+        style="?android:attr/borderlessButtonStyle"
+        android:contentDescription="@string/empty"
+        android:text="Audio" />
+
+    <TextView
+        android:id="@+id/tvbtn2"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/tvagain"
+        android:paddingTop="10dp"
+        android:contentDescription="@string/empty"
+        android:text="             "
+        android:textColor="@color/black"
+        android:textSize="23sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

@@ -1,0 +1,87 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rootLayout"
+    android:descendantFocusability="beforeDescendants"
+android:focusableInTouchMode="true" >
+
+    <TextView
+        android:id="@+id/TextView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="34dp"
+        android:layout_toRightOf="@+id/textView1"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/Text2" />
+
+    <TextView
+        android:id="@+id/TitleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="65dp"
+        android:text="@string/Title"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/AuthorText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Name:"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="44dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/Text1" />
+
+    <EditText
+        android:id="@+id/AuthorEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/AuthorText"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:maxLength="12"
+        android:hint="@string/EnterAuthor"
+        android:imeOptions="actionSearch|flagNoExtractUi|flagNoFullscreen"
+        android:inputType="textCapSentences"
+        android:maxLines="1" />
+
+    <EditText
+        android:id="@+id/TitleEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/AuthorEdit"
+        android:layout_below="@+id/TitleText"
+        android:ems="10"
+        android:maxLength="12"
+        android:imeOptions="actionSearch|flagNoExtractUi|flagNoFullscreen"
+        android:inputType="textCapSentences"
+        android:maxLines="1" >
+    </EditText>
+
+    <ImageButton
+        android:id="@+id/imageView1"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_above="@+id/TextView2"
+        android:layout_alignLeft="@+id/TextView2"
+        android:layout_marginLeft="21dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/empty"
+        android:scaleType="fitCenter"
+        android:src="@android:drawable/ic_menu_edit" />
+
+</RelativeLayout>

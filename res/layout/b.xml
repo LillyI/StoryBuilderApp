@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="0dp"
+    android:gravity="right"
+    android:orientation="horizontal" >
+
+    <Button
+        android:id="@+id/biv3"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="65dp"
+        android:layout_height="70dp"
+        android:layout_alignParentRight="true"
+        android:contentDescription="@string/empty"
+        android:text="Exit" />
+
+    <Button
+        android:id="@+id/biv2"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="25dp"
+        android:layout_toLeftOf="@+id/biv4"
+        android:contentDescription="@string/empty"
+        android:text="Audio" />
+
+    <TextView
+        android:id="@+id/tvbtn2"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:paddingTop="15dp"
+        android:text=" &lt;--Click to view story pages"
+        android:textColor="#80cfe2"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/biv4"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="25dp"
+        android:layout_toLeftOf="@+id/biv3"
+        android:contentDescription="@string/empty"
+        android:text="Save" />
+
+    <Button
+        android:id="@+id/savetextbtn"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="110dp"
+        android:layout_height="70dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="25dp"
+        android:layout_toLeftOf="@+id/biv2"
+        android:contentDescription="@string/empty"
+        android:text="Save Text" />
+
+</RelativeLayout>
